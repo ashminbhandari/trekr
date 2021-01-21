@@ -13,6 +13,8 @@
 		16C7949D25BA1B9B00E721FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C7949C25BA1B9B00E721FC /* Preview Assets.xcassets */; };
 		16C794A825BA1B9B00E721FC /* trekrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C794A725BA1B9B00E721FC /* trekrTests.swift */; };
 		16C794B325BA1B9B00E721FC /* trekrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C794B225BA1B9B00E721FC /* trekrUITests.swift */; };
+		16C794CC25BA33B500E721FC /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 16C794CA25BA33B400E721FC /* locations.json */; };
+		16C794CD25BA33B500E721FC /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 16C794CB25BA33B500E721FC /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		16C794AE25BA1B9B00E721FC /* trekrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trekrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C794B225BA1B9B00E721FC /* trekrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trekrUITests.swift; sourceTree = "<group>"; };
 		16C794B425BA1B9B00E721FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C794CA25BA33B400E721FC /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		16C794CB25BA33B500E721FC /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				16C7949525BA1B9A00E721FC /* trekrApp.swift */,
 				16C7949725BA1B9A00E721FC /* ContentView.swift */,
 				16C7949925BA1B9B00E721FC /* Assets.xcassets */,
+				16C794CA25BA33B400E721FC /* locations.json */,
+				16C794CB25BA33B500E721FC /* tips.json */,
 				16C7949E25BA1B9B00E721FC /* Info.plist */,
 				16C7949B25BA1B9B00E721FC /* Preview Content */,
 			);
@@ -235,6 +241,8 @@
 			files = (
 				16C7949D25BA1B9B00E721FC /* Preview Assets.xcassets in Resources */,
 				16C7949A25BA1B9B00E721FC /* Assets.xcassets in Resources */,
+				16C794CC25BA33B500E721FC /* locations.json in Resources */,
+				16C794CD25BA33B500E721FC /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
